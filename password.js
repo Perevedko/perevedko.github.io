@@ -84,7 +84,7 @@ $(document).ready(function() {
             var langlist = data[lang.val()]; // to choose lang from
             var seed_string = seed.val();
             if (!seed_string) {
-                seed.val('я же просил, блять')
+                seed.val('я же просил!')
             }
             // state check
             var random;
